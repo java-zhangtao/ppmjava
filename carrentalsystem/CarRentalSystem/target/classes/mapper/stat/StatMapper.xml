@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jian.stat.mapper.StatMapper">
+  <!--查询所有客户地区-->
+  <select id="loadCustomerAreaJson" resultType="com.jian.stat.pojo.StatEntity">
+    select address as name,count(1) as value from bus_customer group by address
+  </select>
+  <!--查询操作员年度业绩-->
+  <select id="loadOpernameYearOutstand" resultType="com.jian.stat.pojo.StatEntity">
+          select opername as name,sum(price) as value
+          from bus_rent
+          where DATE_FORMAT(createtime,"%Y")=#{year}
+          group by opername
+  </select>
+    <!--查询公司年度业绩-->
+    <select id="loadCompanyYearOutstan" resultType="java.lang.Double" parameterType="java.lang.String">
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},'01')
+        union all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"02")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"03")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"04")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"05")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"06")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"07")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"08")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"09")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"10")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"11")
+        UNION all
+        select sum(price)
+        from bus_rent
+        where DATE_FORMAT(createtime,'%Y%m')=concat(#{year},"12")
+    </select>
+</mapper>

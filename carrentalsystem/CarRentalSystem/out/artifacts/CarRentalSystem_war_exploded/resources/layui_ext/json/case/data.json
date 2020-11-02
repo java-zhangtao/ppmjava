@@ -1,0 +1,220 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": null,
+  "data": [
+    {
+      "id": 2,
+      "title": "基础管理",
+      "href": null,
+      "icon": null,
+      "spread": false,
+      "target": null,
+      "children": [
+        {
+          "id": 6,
+          "title": "客户管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 2
+        },
+        {
+          "id": 7,
+          "title": "车辆管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 2
+        }
+      ],
+      "checkArr": "0",
+      "parentId": 1
+    },
+    {
+      "id": 3,
+      "title": "业务管理",
+      "href": null,
+      "icon": null,
+      "spread": false,
+      "target": null,
+      "children": [
+        {
+          "id": 8,
+          "title": "汽车出租",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 3
+        },
+        {
+          "id": 9,
+          "title": "出租单管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 3
+        },
+        {
+          "id": 10,
+          "title": "汽车入库",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 3
+        },
+        {
+          "id": 11,
+          "title": "检查单管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 3
+        }
+      ],
+      "checkArr": "0",
+      "parentId": 1
+    },
+    {
+      "id": 4,
+      "title": "系统管理",
+      "href": null,
+      "icon": null,
+      "spread": true,
+      "target": null,
+      "children": [
+        {
+          "id": 12,
+          "title": "菜单管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        },
+        {
+          "id": 13,
+          "title": "角色管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        },
+        {
+          "id": 14,
+          "title": "用户管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        },
+        {
+          "id": 15,
+          "title": "日志管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        },
+        {
+          "id": 16,
+          "title": "公告管理",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        },
+        {
+          "id": 17,
+          "title": "数据源监控",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 4
+        }
+      ],
+      "checkArr": "0",
+      "parentId": 1
+    },
+    {
+      "id": 5,
+      "title": "统计分析",
+      "href": null,
+      "icon": null,
+      "spread": false,
+      "target": null,
+      "children": [
+        {
+          "id": 18,
+          "title": "客户地区统计",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 5
+        },
+        {
+          "id": 19,
+          "title": "公司年度月份销售额",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 5
+        },
+        {
+          "id": 20,
+          "title": "业务员年度销售额",
+          "href": null,
+          "icon": null,
+          "spread": false,
+          "target": null,
+          "children": [],
+          "checkArr": "0",
+          "parentId": 5
+        }
+      ],
+      "checkArr": "0",
+      "parentId": 1
+    }
+  ]
+}
